@@ -6,3 +6,9 @@
 [插件地址](https://marketplace.visualstudio.com/items?itemName=juconvertor.juconvertor)
 
 命令: `JSON -> URL   URL->JSON`
+
+
+> commonInfo : 
+> 1. 在 https://dev.azure.com 这里创建token,用于将插件上传到azure ops.(vscode marketplace是承载在上面的)
+> 2. 在 https://marketplace.visualstudio.com/manage 创建一个publisher与插件中的相同.
+> 3. 本地打包 vsce packege 手动上传 / 或者 vs login <publisher name> 然后用token登录后.(手动上传需要登录微软账号,所以不需要token了)
